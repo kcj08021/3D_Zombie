@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{8133a961-7d51-4731-a668-ab062b3a88ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{1a656d94-0aac-4d5d-8994-e56691db17a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\00.TitleScene">
+      <UniqueIdentifier>{57e3ea05-1726-46b4-8486-f825fc744c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{e7ecd26a-1521-48b3-8545-2ed4e714f5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.StaticObject">
+      <UniqueIdentifier>{12691b78-25cf-4022-8d09-44976016527a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.TitleObject">
+      <UniqueIdentifier>{75b8e660-f07a-4602-aee7-2f4725cc4bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component">
+      <UniqueIdentifier>{4d7eae96-0859-4e92-a50f-24395cb084d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{67fdb845-b474-4190-b640-cde62ec13022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\00.Used">
+      <UniqueIdentifier>{ef14beaa-b88f-43f0-ad7f-bd8d9869393d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\01.Not Used">
+      <UniqueIdentifier>{c1cf9239-cace-4c53-a794-b9f97471b37b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.LoadingScene">
+      <UniqueIdentifier>{a9666901-f40f-4b2e-befd-b69d8877b564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\02.StageScene">
+      <UniqueIdentifier>{81cc8fa3-e52c-4fb6-ad50-511d9768496a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.StageObject">
+      <UniqueIdentifier>{0d4636c6-4c4c-499d-bb87-39302182b931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.StageObject\00.FreeCamera">
+      <UniqueIdentifier>{79aa73de-7dd9-4cd2-84fd-ac8397421e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.StageObject\01.Terrain">
+      <UniqueIdentifier>{e1dd7494-e4b1-407c-9827-417469606ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.StageObject\02.Player">
+      <UniqueIdentifier>{a6fa54f1-e06c-45ab-a8a7-934fc20b52ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Header">
+      <UniqueIdentifier>{fb7ef782-5089-4544-a82d-300ac8d42c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFile">
+      <UniqueIdentifier>{cb1ec355-391d-4998-91c0-217098c6c88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.StaticObject\00.StaticMeshObject">
+      <UniqueIdentifier>{b01be3f4-becd-48cd-b993-bab347c58ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\00.Weapon">
+      <UniqueIdentifier>{45cfc4da-8bc3-4940-ba66-fbb2c1417417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\00.Weapon\03.G3">
+      <UniqueIdentifier>{68204b15-50ff-4c3c-b14d-dfd562ac0f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\00.Weapon\05.RPD">
+      <UniqueIdentifier>{9723093f-5a27-49aa-ac70-7739b7da3fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\00.Weapon\99.Weapon">
+      <UniqueIdentifier>{095b1671-465c-4701-9372-fcdc103e3a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\00.Weapon\09.M16M203_Grenade">
+      <UniqueIdentifier>{46a7a454-94ee-4c39-ad94-4e6e7f5d1083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\00.Weapon\01.AK47">
+      <UniqueIdentifier>{c0466e09-acbf-4c2a-b2d2-0925cf3980dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\00.Weapon\06.M16M203">
+      <UniqueIdentifier>{efba1b47-b4ef-43b1-a67c-84069285cc27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.StageObject\03.NonPlayer">
+      <UniqueIdentifier>{a330cafc-bda0-49a1-9803-04a285edce3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.StageObject\04.WeaponObject">
+      <UniqueIdentifier>{12324a67-fd46-4de1-83fe-50f5ebf80272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.StageObject\05.Grenade">
+      <UniqueIdentifier>{513f4796-c807-4815-b413-5ee9564ff0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.StaticObject\01.SkyBox">
+      <UniqueIdentifier>{0d8e4f61-fdb1-4f91-b51c-9f75b756222b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\01.StaticMeshLoader">
+      <UniqueIdentifier>{2c55ad32-1f49-4dd6-a324-0290b873fee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.StageObject\02.Player\01.Player">
+      <UniqueIdentifier>{06578df9-3ac6-4262-954d-feb641916305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.StageObject\06.UI">
+      <UniqueIdentifier>{ee85e85a-0630-4db9-a9ee-d9c87d46de15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.StageObject\06.UI\00.AmmoHUD">
+      <UniqueIdentifier>{18007603-643d-4734-a227-52213af084b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.StageObject\06.UI\01.WeaponChangeTextUI">
+      <UniqueIdentifier>{c362fea1-019f-415e-bf84-9ff73ec055e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.StageObject\07.Effect">
+      <UniqueIdentifier>{59ef9b9a-9833-41e7-9655-0f819df9d318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.StageObject\07.Effect\00.MuzzleEffect">
+      <UniqueIdentifier>{9704494a-3c2c-4479-a7d2-220c81dca8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.StageObject\07.Effect\01.BloodEffect">
+      <UniqueIdentifier>{4d93cabf-6361-4a85-9d2b-5d6d331ed9a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.StageObject\06.UI\02.HPUI">
+      <UniqueIdentifier>{0077e519-3ab3-4182-b989-dd4d347bc079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UnitManager">
+      <UniqueIdentifier>{b0f18a00-9c71-4e1f-bc96-7f58b8007a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.StaticObject\02.UI_Background">
+      <UniqueIdentifier>{4bb496e6-9d9d-4da8-8ce0-cd88330b1191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.TitleObject\00.GameStartButton">
+      <UniqueIdentifier>{abcafba1-86ea-4f95-9745-b24bfe0d0ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.TitleObject\01.GameExitButton">
+      <UniqueIdentifier>{d9512e66-96db-4faf-922a-91ba49e49480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.LoadingObejct">
+      <UniqueIdentifier>{7559f5db-215d-4cf0-8c1d-9ff3983d075d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.LoadingObejct\00.LoadingProgress">
+      <UniqueIdentifier>{80b8a3a1-074b-49db-a2b0-881fe9756a7b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Header\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Client_Headers.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TitleScene.h">
+      <Filter>01.Scene\00.TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default\00.Used</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99.Default\01.Not Used</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default\01.Not Used</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default\01.Not Used</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FreeCamera.h">
+      <Filter>02.GameObject\02.StageObject\00.FreeCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StageScene.h">
+      <Filter>01.Scene\02.StageScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Terrain.h">
+      <Filter>02.GameObject\02.StageObject\01.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StaticMeshObject.h">
+      <Filter>02.GameObject\00.StaticObject\00.StaticMeshObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\NonPlayer.h">
+      <Filter>02.GameObject\02.StageObject\03.NonPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\G3.h">
+      <Filter>03.Component\00.Weapon\03.G3</Filter>
+    </ClInclude>
+    <ClInclude Include="Client_Macro.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RPD.h">
+      <Filter>03.Component\00.Weapon\05.RPD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Weapon.h">
+      <Filter>03.Component\00.Weapon\99.Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\M16M203_Grenade.h">
+      <Filter>03.Component\00.Weapon\09.M16M203_Grenade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\M16M203.h">
+      <Filter>03.Component\00.Weapon\06.M16M203</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\AK47.h">
+      <Filter>03.Component\00.Weapon\01.AK47</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WeaponObject.h">
+      <Filter>02.GameObject\02.StageObject\04.WeaponObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Grenade.h">
+      <Filter>02.GameObject\02.StageObject\05.Grenade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SkyBox.h">
+      <Filter>02.GameObject\00.StaticObject\01.SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StaticMeshLoader.h">
+      <Filter>03.Component\01.StaticMeshLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Client_Struct.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Player.h">
+      <Filter>02.GameObject\02.StageObject\02.Player\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\AmmoHUD.h">
+      <Filter>02.GameObject\02.StageObject\06.UI\00.AmmoHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MuzzleEffect.h">
+      <Filter>02.GameObject\02.StageObject\07.Effect\00.MuzzleEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BloodEffect.h">
+      <Filter>02.GameObject\02.StageObject\07.Effect\01.BloodEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WeaponChangeTextUI.h">
+      <Filter>02.GameObject\02.StageObject\06.UI\01.WeaponChangeTextUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\UIBackground.h">
+      <Filter>02.GameObject\00.StaticObject\02.UI_Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\HPUI.h">
+      <Filter>02.GameObject\02.StageObject\06.UI\02.HPUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LoadingScene.h">
+      <Filter>01.Scene\01.LoadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\UnitManager.h">
+      <Filter>04.UnitManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\GameStartButton.h">
+      <Filter>02.GameObject\01.TitleObject\00.GameStartButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\GameExitButton.h">
+      <Filter>02.GameObject\01.TitleObject\01.GameExitButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LoadingProgress.h">
+      <Filter>02.GameObject\03.LoadingObejct\00.LoadingProgress</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Client_Defines.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TitleScene.cpp">
+      <Filter>01.Scene\00.TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>99.Default\00.Used</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default\01.Not Used</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FreeCamera.cpp">
+      <Filter>02.GameObject\02.StageObject\00.FreeCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StageScene.cpp">
+      <Filter>01.Scene\02.StageScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Terrain.cpp">
+      <Filter>02.GameObject\02.StageObject\01.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticMeshObject.cpp">
+      <Filter>02.GameObject\00.StaticObject\00.StaticMeshObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\NonPlayer.cpp">
+      <Filter>02.GameObject\02.StageObject\03.NonPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\G3.cpp">
+      <Filter>03.Component\00.Weapon\03.G3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RPD.cpp">
+      <Filter>03.Component\00.Weapon\05.RPD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Weapon.cpp">
+      <Filter>03.Component\00.Weapon\99.Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\M16M203_Grenade.cpp">
+      <Filter>03.Component\00.Weapon\09.M16M203_Grenade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\M16M203.cpp">
+      <Filter>03.Component\00.Weapon\06.M16M203</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AK47.cpp">
+      <Filter>03.Component\00.Weapon\01.AK47</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WeaponObject.cpp">
+      <Filter>02.GameObject\02.StageObject\04.WeaponObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Grenade.cpp">
+      <Filter>02.GameObject\02.StageObject\05.Grenade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkyBox.cpp">
+      <Filter>02.GameObject\00.StaticObject\01.SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticMeshLoader.cpp">
+      <Filter>03.Component\01.StaticMeshLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Player.cpp">
+      <Filter>02.GameObject\02.StageObject\02.Player\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AmmoHUD.cpp">
+      <Filter>02.GameObject\02.StageObject\06.UI\00.AmmoHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MuzzleEffect.cpp">
+      <Filter>02.GameObject\02.StageObject\07.Effect\00.MuzzleEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BloodEffect.cpp">
+      <Filter>02.GameObject\02.StageObject\07.Effect\01.BloodEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HPUI.cpp">
+      <Filter>02.GameObject\02.StageObject\06.UI\02.HPUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WeaponChangeTextUI.cpp">
+      <Filter>02.GameObject\02.StageObject\06.UI\01.WeaponChangeTextUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UIBackground.cpp">
+      <Filter>02.GameObject\00.StaticObject\02.UI_Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LoadingScene.cpp">
+      <Filter>01.Scene\01.LoadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UnitManager.cpp">
+      <Filter>04.UnitManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GameStartButton.cpp">
+      <Filter>02.GameObject\01.TitleObject\00.GameStartButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GameExitButton.cpp">
+      <Filter>02.GameObject\01.TitleObject\01.GameExitButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LoadingProgress.cpp">
+      <Filter>02.GameObject\03.LoadingObejct\00.LoadingProgress</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99.Default\01.Not Used</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default\01.Not Used</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.Default\01.Not Used</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default\01.Not Used</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFile\DefaultShader.fx">
+      <Filter>97.ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFile\TerrainShader.fx">
+      <Filter>97.ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFile\SkyboxShader.fx">
+      <Filter>97.ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFile\PlayerShader.fx">
+      <Filter>97.ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFile\ClientEffectShader.fx">
+      <Filter>97.ShaderFile</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

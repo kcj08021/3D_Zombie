@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{7c63eebb-6a25-4c29-87a1-02974c1d4c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.WinApp">
+      <UniqueIdentifier>{2b21af13-ce2b-493d-a6ab-f3d09a764554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View">
+      <UniqueIdentifier>{778eb7d6-fee3-4ede-b97a-629fd15607b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\00.ToolView">
+      <UniqueIdentifier>{c3851c0d-1826-482f-8f23-2337d9c82489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Header">
+      <UniqueIdentifier>{0769c2e7-c7b2-4e9f-a676-639615337e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Document">
+      <UniqueIdentifier>{b5104aae-9d55-446d-8c1f-d42225bf19ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Document\00.ToolDoc">
+      <UniqueIdentifier>{efc25998-e8d2-4d3f-8ee9-2f635ee8da04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.MainFrame">
+      <UniqueIdentifier>{000a23d5-cf86-4e51-85d7-f85ffd7f2f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\01.ToolFormView">
+      <UniqueIdentifier>{2ecf09d6-1e1d-4e81-b91f-8dee2d35bfab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog">
+      <UniqueIdentifier>{f0ddf215-1aa5-4e88-827e-123a845afd1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\00.MapToolDialog">
+      <UniqueIdentifier>{cac21ae6-9def-4ff2-a586-02d49557becb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\01.ObjectToolDialog">
+      <UniqueIdentifier>{bbf7fc7a-2a58-4ed3-809d-852f440ef7cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFile">
+      <UniqueIdentifier>{d5054948-3c7d-40cd-b294-400c42346431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject">
+      <UniqueIdentifier>{32d9ea2b-20b3-4b35-9b4e-e879d949c7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\00.ToolCamera">
+      <UniqueIdentifier>{c4488692-6df7-4f3d-ae23-0b2f2653b4e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\01.ToolTerrain">
+      <UniqueIdentifier>{bf482623-31a3-4c7f-b26e-a9557355635f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component">
+      <UniqueIdentifier>{4dd8d473-5213-43f7-ae39-ca9098f3832b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.MainFrame\00.MainFrm">
+      <UniqueIdentifier>{8c035920-fc04-42e4-b68e-5c7588753b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component\00.RotationContainer">
+      <UniqueIdentifier>{bf99ba4f-b255-4248-9a3a-778c77e4a668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\02.ToolStaticObject">
+      <UniqueIdentifier>{f9b54fbd-729a-418f-b580-4daabab9f4fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\02.NaviMeshToolDialog">
+      <UniqueIdentifier>{24ff6e6d-a1bf-49ff-9c9b-3effda91d832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\03.NaviMeshObject">
+      <UniqueIdentifier>{62119962-0bf6-412b-8c3b-8392c427c653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\03.LightToolDialog">
+      <UniqueIdentifier>{7e6d31d9-c6b1-46d3-95fd-5b725ce1b7e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>00.WinApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool_Header.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ToolFormView.h">
+      <Filter>03.View\01.ToolFormView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ToolDoc.h">
+      <Filter>01.Document\00.ToolDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ToolView.h">
+      <Filter>03.View\00.ToolView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MainFrm.h">
+      <Filter>02.MainFrame\00.MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MapToolDialog.h">
+      <Filter>04.Dialog\00.MapToolDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ObjectToolDialog.h">
+      <Filter>04.Dialog\01.ObjectToolDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ToolCamera.h">
+      <Filter>05.GameObject\00.ToolCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ToolTerrain.h">
+      <Filter>05.GameObject\01.ToolTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RotationContainer.h">
+      <Filter>06.Component\00.RotationContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ToolStaticObject.h">
+      <Filter>05.GameObject\02.ToolStaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\NaviMeshToolDialog.h">
+      <Filter>04.Dialog\02.NaviMeshToolDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\NaviMeshObject.h">
+      <Filter>05.GameObject\03.NaviMeshObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Tool_Struct.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LightToolDialog.h">
+      <Filter>04.Dialog\03.LightToolDialog</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>00.WinApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolFormView.cpp">
+      <Filter>03.View\01.ToolFormView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainFrm.cpp">
+      <Filter>02.MainFrame\00.MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolDoc.cpp">
+      <Filter>01.Document\00.ToolDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolView.cpp">
+      <Filter>03.View\00.ToolView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MapToolDialog.cpp">
+      <Filter>04.Dialog\00.MapToolDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ObjectToolDialog.cpp">
+      <Filter>04.Dialog\01.ObjectToolDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolCamera.cpp">
+      <Filter>05.GameObject\00.ToolCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolTerrain.cpp">
+      <Filter>05.GameObject\01.ToolTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RotationContainer.cpp">
+      <Filter>06.Component\00.RotationContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolStaticObject.cpp">
+      <Filter>05.GameObject\02.ToolStaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\NaviMeshToolDialog.cpp">
+      <Filter>04.Dialog\02.NaviMeshToolDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\NaviMeshObject.cpp">
+      <Filter>05.GameObject\03.NaviMeshObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightToolDialog.cpp">
+      <Filter>04.Dialog\03.LightToolDialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFile\DefaultShader.fx">
+      <Filter>97.ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFile\TerrainShader.fx">
+      <Filter>97.ShaderFile</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
